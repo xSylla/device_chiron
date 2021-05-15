@@ -127,7 +127,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.disable_skip_validate=1 \
     vendor.display.enable_default_color_mode=1 \
     vendor.display.perf_hint_window=50 \
-    vendor.gralloc.enable_fb_ubwc=1
+    vendor.gralloc.enable_fb_ubwc=1 \
+    vendor.display.disable_avr=1
 
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -189,7 +190,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.pug=true \
     ro.vendor.sensors.spg=false \
     ro.vendor.sensors.sta_detect=true \
-    ro.vendor.sensors.taptap_gesture=true
+    ro.vendor.sensors.taptap_gesture=true \
+    ro.xiaomi.sar_fusion=true
 
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
